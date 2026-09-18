@@ -1,0 +1,1 @@
+import{a as o,u as a,r as c}from"./state-DOQdhYv_.js";import{c as m,t as r}from"./index-C9ArXz6c.js";const n=t=>t.theme.mode;function h(){const t=o(),e=a(n);return c.useEffect(()=>{document.documentElement.classList.toggle("dark",e==="dark"),localStorage.setItem("physiomind-theme",e)},[e]),{mode:e,toggle:()=>t(r()),set:s=>t(m(s)),isDark:e==="dark"}}export{h as u};

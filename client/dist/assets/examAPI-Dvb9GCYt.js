@@ -1,0 +1,1 @@
+import{a as t}from"./authThunk-D5kfOUSn.js";const m={list:e=>t.get("/exams",{params:e}),get:e=>t.get(`/exams/${e}`),create:e=>t.post("/exams",e),start:e=>t.get(`/exams/${e}/start`),submit:(e,s)=>t.post(`/exams/${e}/submit`,s),remove:e=>t.delete(`/exams/${e}`)};export{m as e};

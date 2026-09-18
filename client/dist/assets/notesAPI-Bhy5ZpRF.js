@@ -1,0 +1,1 @@
+import{a as t}from"./authThunk-D5kfOUSn.js";const n={create:e=>t.post("/notes",e),list:e=>t.get("/notes",{params:e}),get:e=>t.get(`/notes/${e}`),update:(e,s)=>t.patch(`/notes/${e}`,s),remove:e=>t.delete(`/notes/${e}`),generateSummary:e=>t.post("/notes/generate/summary",e)};export{n};

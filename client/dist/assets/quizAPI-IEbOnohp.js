@@ -1,0 +1,1 @@
+import{a as e}from"./authThunk-D5kfOUSn.js";const u={generate:t=>e.post("/quiz",t),list:t=>e.get("/quiz",{params:t}),get:t=>e.get(`/quiz/${t}`),start:t=>e.get(`/quiz/${t}/start`),submit:(t,i)=>e.post(`/quiz/${t}/submit`,i),remove:t=>e.delete(`/quiz/${t}`)};export{u as q};
